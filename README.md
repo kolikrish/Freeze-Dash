@@ -105,6 +105,28 @@ Open [http://localhost:3000](http://localhost:3000) in your browser to start pla
 
 ---
 
+## 🌐 Free Deployment on Vercel
+
+Since your repository is on GitHub (`kolikrish/Freeze-Dash`), you can deploy **Freeze Dash** for **free** on Vercel in 3 simple steps:
+
+### Step 1: Sign Up / Log in to Vercel
+1. Go to [vercel.com](https://vercel.com/) and click **Sign Up** or **Log In**.
+2. Select **Continue with GitHub** to connect your GitHub account.
+
+### Step 2: Import Your Repository
+1. On your Vercel Dashboard, click **Add New...** → **Project**.
+2. Select your repository: `kolikrish/Freeze-Dash` and click **Import**.
+
+### Step 3: Add Environment Variables & Deploy
+1. In the **Environment Variables** section during setup, add the 3 required Firebase keys from your `.env.local`:
+   - `FIREBASE_PROJECT_ID`
+   - `FIREBASE_CLIENT_EMAIL`
+   - `FIREBASE_PRIVATE_KEY`
+2. Click **Deploy**.
+3. Vercel will automatically build and deploy your app. You will receive a live `.vercel.app` URL!
+
+---
+
 ## 🛰️ API Endpoints Reference
 
 | Endpoint | Method | Description |

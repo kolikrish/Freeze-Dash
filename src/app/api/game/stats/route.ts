@@ -1,4 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
+
+export const dynamic = "force-dynamic";
 import db from "@/utils/Db";
 import { GameStateenum, Player } from "@/utils/types/game";
 

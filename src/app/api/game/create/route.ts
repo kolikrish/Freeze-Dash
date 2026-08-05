@@ -1,5 +1,7 @@
 
 import { NextResponse } from "next/server";
+
+export const dynamic = "force-dynamic";
 // Assuming you have a server-side utility that initializes and exports
 // the Firestore database from firebase-admin.
 // You will need to create a file at "@/utils/admin-db.ts" or similar path.
